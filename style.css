@@ -1,0 +1,79 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    image-orientation: flip;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add{
+    background-color: rgb(12, 88, 18);
+    border-radius: 3px;
+    border: none;
+    color: mintcream;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    position: fixed;
+    top: 1rem;
+    
+    right: 1rem;
+    width: 5rem;
+    height: 4rem;
+}
+
+.note{
+    background-color: rgb(191, 224, 191);
+    box-shadow:0px 0px 5px 5px rgb(104, 161, 172);
+    margin: 20px;   
+    height: 400px;  
+    width: 400px;
+}
+
+.note .tools{
+    background-color: rgb(27, 78, 78);
+    padding: 0.5rem;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.note .tools button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    color: rgb(141, 104, 177);
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+
+}
+
+.note .main{
+    background-color: rgb(229, 216, 240);
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.note textarea{
+    
+    outline: none; 
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width:  100%;
+}
+
+.note .hidden {
+    display: none;
+}
